@@ -1,0 +1,15 @@
+[package]
+name = "casc"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x1214e7fe6f3add70bba744683d862e9b73a2eaf03c52adfdf9f1e0f164c2a08d"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
